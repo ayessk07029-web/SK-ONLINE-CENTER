@@ -1,0 +1,202 @@
+Here is your complete, updated website code package. I have injected placeholder fields for your exact address so it is ready to be personalized immediately.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK ONLINE CENTRE (CSCeGov) - Digital Seva Kendra</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800 scroll-smooth">
+
+    <!-- Header / Navbar -->
+    <header class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-3 md:mb-0">
+                <div class="bg-amber-500 text-blue-900 p-2 rounded font-bold text-xl tracking-wider">CSC</div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight">SK ONLINE CENTRE</h1>
+                    <p class="text-xs text-amber-400 font-semibold">Authorized CSC eGov Service Provider</p>
+                </div>
+            </div>
+            <nav class="flex space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-amber-400 transition">Home</a>
+                <a href="#services" class="hover:text-amber-400 transition">Our Services</a>
+                <a href="#gov-links" class="hover:text-amber-400 transition">Important Links</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact & Inquiry</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-16 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="bg-blue-700 text-amber-300 text-xs px-3 py-1 rounded-full font-bold uppercase tracking-wide">Digital India Initiative</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold my-4 leading-tight">Your Trusted Gateway to Digital & Government Services</h2>
+            <p class="text-md md:text-lg text-blue-100 mb-8">Get quick assistance with Aadhaar updates, PAN cards, banking, insurance, utility bill payments, and all online government schemes under one roof.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#services" class="bg-amber-500 hover:bg-amber-600 text-blue-950 font-bold px-6 py-3 rounded shadow transition">Explore Services</a>
+                <a href="#contact" class="bg-transparent border border-white hover:bg-white hover:text-blue-900 font-semibold px-6 py-3 rounded transition">Book Appointment / Inquiry</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Badges Section -->
+    <div class="bg-amber-500 text-blue-950 font-semibold py-3 shadow-inner">
+        <div class="container mx-auto px-4 flex flex-wrap justify-around text-center gap-2 text-sm">
+            <div><i class="fa-solid fa-bolt mr-2"></i> Fast Processing</div>
+            <div><i class="fa-solid fa-user-shield mr-2"></i> Safe & Secure Transfers</div>
+            <div><i class="fa-solid fa-circle-check mr-2"></i> Govt. Approved VLE</div>
+            <div><i class="fa-solid fa-headset mr-2"></i> Friendly Local Assistance</div>
+        </div>
+    </div>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="container mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-900">Popular Digital Services Available</h3>
+            <p class="text-gray-600 mt-2">Skip the long queues. Let us handle your online documentation accurately.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Service 1 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-address-card"></i></div>
+                <h4 class="font-bold text-lg mb-2">Aadhaar & PAN Services</h4>
+                <p class="text-gray-600 text-sm">New registration applications, corrections, printouts, and linking status setups.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                <h4 class="font-bold text-lg mb-2">AEPS Banking & DigiPay</h4>
+                <p class="text-gray-600 text-sm">Instant cash withdrawals, deposits, balance inquiries, and fast domestic money transfers.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-file-invoice"></i></div>
+                <h4 class="font-bold text-lg mb-2">e-District Certificates</h4>
+                <p class="text-gray-600 text-sm">Income, Caste, Domicile, Birth, Death, and Marriage registration certificates.</p>
+            </div>
+            <!-- Service 4 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-lightbulb"></i></div>
+                <h4 class="font-bold text-lg mb-2">Utility Bill Payments</h4>
+                <p class="text-gray-600 text-sm">Quick payments for Electricity, Water, Gas, DTH, Fastag, and Mobile recharges.</p>
+            </div>
+            <!-- Service 5 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-shield-halved"></i></div>
+                <h4 class="font-bold text-lg mb-2">Insurance Premium</h4>
+                <p class="text-gray-600 text-sm">Renewals and premium deposits for Life, Health, Bike, and Car insurance policies.</p>
+            </div>
+            <!-- Service 6 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h4 class="font-bold text-lg mb-2">Educational Filings</h4>
+                <p class="text-gray-600 text-sm">College admissions, scholarship filings, exam results, and exam fee submissions.</p>
+            </div>
+            <!-- Service 7 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-plane"></i></div>
+                <h4 class="font-bold text-lg mb-2">Travel Booking</h4>
+                <p class="text-gray-600 text-sm">IRCTC rail ticket reservations, bus tickets, and domestic or international flight booking.</p>
+            </div>
+            <!-- Service 8 -->
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition border border-gray-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fa-solid fa-print"></i></div>
+                <h4 class="font-bold text-lg mb-2">Xerox & Lamination</h4>
+                <p class="text-gray-600 text-sm">High-speed photocopying, color printing, laminations, and scanning services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Links Section -->
+    <section id="gov-links" class="bg-gray-100 py-12 border-t border-b border-gray-200">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">Important Public Services Links</h3>
+            <div class="flex flex-wrap justify-center gap-4 text-xs font-semibold">
+                <a href="https://csc.gov.in" target="_blank" rel="noopener noreferrer" class="bg-white border border-gray-300 hover:border-blue-600 px-4 py-2 rounded shadow-sm text-blue-900 flex items-center"><i class="fa-solid fa-link mr-2"></i> Digital Seva Portal</a>
+                <a href="https://uidai.gov.in" target="_blank" rel="noopener noreferrer" class="bg-white border border-gray-300 hover:border-blue-600 px-4 py-2 rounded shadow-sm text-blue-900 flex items-center"><i class="fa-solid fa-link mr-2"></i> UIDAI Portal</a>
+                <a href="https://incometax.gov.in" target="_blank" rel="noopener noreferrer" class="bg-white border border-gray-300 hover:border-blue-600 px-4 py-2 rounded shadow-sm text-blue-900 flex items-center"><i class="fa-solid fa-link mr-2"></i> Income Tax</a>
+                <a href="https://epfindia.gov.in" target="_blank" rel="noopener noreferrer" class="bg-white border border-gray-300 hover:border-blue-600 px-4 py-2 rounded shadow-sm text-blue-900 flex items-center"><i class="fa-solid fa-link mr-2"></i> EPFO Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Inquiry Form Section -->
+    <section id="contact" class="container mx-auto px-4 py-16 max-w-5xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Center Details -->
+            <div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Visit Our Center</h3>
+                <p class="text-gray-600 mb-6">Have an urgent document or form application? Drop by our physical office location for immediate, face-to-face assistance.</p>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="text-blue-700 text-lg mt-1 mr-4"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h5 class="font-bold">Address</h5>
+
+[Enter Shop Number/Street, Landmark, City/Village, District, Pin Code]
+
+
+
+
+
+Phone Number
++91 XXXXX XXXXX
+
+
+
+
+
+Email Address
+contact@skonlinecentre.com
+
+
+
+
+
+Working Hours
+Mon - Sat: 09:00 AM to 07:00 PM
+
+
+
+Online Service Inquiry
+Need help processing a form? Fill out this inquiry, and we'll reply shortly.
+Aadhaar / PAN Service
+Banking / Money Transfer
+Certificate Application (Caste/Income/Etc)
+Utility Recharges / Bills
+Other Online Forms
+
+
+Submit Request
+
+
+
+SK ONLINE CENTRE (CSCeGov)
+We are an independent Common Service Center setup helping community members access public utility and citizen-centric e-governance platforms seamlessly.
+© 2026 SK ONLINE CENTRE. All rights reserved.
+
+
+### 🚀 Immediate Deployment Guide
+1. Copy the code block above entirely.
+2. Open a text editor on your computer (like Notepad) and paste the code inside.
+3. Save the file exactly as **`index.html`**.
+4. Drag and drop this saved file straight into your **GitHub Repository** or public web hosting platform to make it instantly live.
+
+<FollowUp>
+To add custom details to your code block, please specify:
+* Your **shop's physical address** and **contact number**
+* Your **State/Union Territory** to link the direct **e-District** portal
+* Any other **specialized services** you provide (e.g., passport processing, job registrations)
+</FollowUp>
+
+
+
+
